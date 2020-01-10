@@ -40,14 +40,14 @@ class Song
     hash 
   end
   
-  def self.artist_count
-    hash = {}
-    @@artists.each do |artist|
-      if hash.has_key?(artist)
-        hash[]
+  # def self.artist_count
+  #   hash = {}
+  #   @@artists.each do |artist|
+  #     if hash.has_key?(artist)
+  #       hash[]
       
-    end
-    hash
-  end 
+  #   end
+  #   hash
+  # end 
   
 end 
